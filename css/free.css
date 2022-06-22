@@ -84,6 +84,7 @@ body {
     margin-bottom: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 footer {
@@ -135,3 +136,8 @@ select{
     color: #6a6f77;
     background-color: bisque;
 }
+
+h1{
+    color: white;
+}
+
