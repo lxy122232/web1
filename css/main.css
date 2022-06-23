@@ -66,17 +66,20 @@ body {
 div#tableContainer {
   margin-top: 50px;
   display: table;
+  /* 此元素会作为块级表格来显示 */
   border-spacing: 10px;
 }
 
 div#tableRow {
   display: table-row;
+  /* 此元素会作为一个表格行显示 */
 }
 
 section#second {
   background-color: rgba(96, 96, 96, 0.4);
     /* 设置透明度 */
   display: table-cell;
+  /* 此元素会作为一个表格单元格显示 */
   font-size: 200%;
   width: 30%;
   padding: 15px;
