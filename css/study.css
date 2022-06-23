@@ -65,26 +65,32 @@ body {
 
 #sp {
   background-color: rgba(96, 96, 96, 0.4);
-  margin-top: 50px;
+  margin-top: 60px;
   margin-left: 10%;
-  margin-bottom: 500px;
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
   width: 600px;
+  height: 1000px;
   text-align: center;
   float: left;
+  padding-bottom: 10px;
 }
 
 #sp2 {
   float: left;
   margin-left: 10px;
   background-color: rgba(96, 96, 96, 0.4);
-  margin-top: 50px;
+  /* 设置透明度 */
+  margin-top: 60px;
   margin-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
+  height: 1000px;
+  width: 40%;
+  padding-bottom: 10px;
+  font-size: 160%;
 }
 
 footer {
@@ -95,6 +101,7 @@ footer {
   margin: 10px 10px 10px 10px;
   font-size: 90%;
   clear: both;
+  /* 是清除元素的浮动效果。 */
 }
 
 blockquote {
@@ -103,8 +110,8 @@ blockquote {
 
 #table1 {
   border: thin solid black;
-  caption-side: bottom;
   border-collapse: collapse;
+  /* 合并表格边框 */
   margin-left: 20px;
   background-color: white;
 }

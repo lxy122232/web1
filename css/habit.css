@@ -65,27 +65,34 @@ body {
 
 #sp {
     background-color: rgba(96, 96, 96, 0.4);
-    margin-top: 150px;
+    margin-top: 60px;
     margin-left: 10%;
-    margin-bottom: 500px;
+    margin-bottom: 10px;
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     width: 600px;
     text-align: center;
     float: left;
+    height: 1500px;
+    font-size: 160%;
 }
 
 #sp2 {
     float: left;
     margin-left: 10px;
     background-color: rgba(196, 192, 192, 0.4);
-    margin-top: 50px;
+    margin-top: 60px;
     margin-bottom: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px;
+    width: 600px;
+    font-size: 160%;
+    height: 1500px;
 }
+
 
 footer {
     background-color: rgba(96, 96, 96, 0.4);
@@ -98,6 +105,13 @@ footer {
 }
 
 
+p {
+    color: white;
+}
+
+h1{
+    color: white;
+}
 /* .bili {
     position: relative;
     overflow: hidden;
